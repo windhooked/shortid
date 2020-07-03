@@ -4,12 +4,13 @@
 package shortid_test
 
 import (
-	"github.com/teris-io/shortid"
 	"math"
 	"math/rand"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/windhooked/shortid"
 )
 
 func TestShortid_Generate_oneIdPerYear_over34Years_uniqueOf9Symbols(t *testing.T) {

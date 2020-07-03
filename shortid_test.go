@@ -4,9 +4,10 @@
 package shortid_test
 
 import (
-	"github.com/teris-io/shortid"
 	"testing"
 	"time"
+
+	"github.com/windhooked/shortid"
 )
 
 func Test_onGetDefault_defaultInstance(t *testing.T) {
