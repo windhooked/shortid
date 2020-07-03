@@ -83,6 +83,7 @@ const Version = 1.1
 
 // DefaultABC is the default URL-friendly alphabet.
 const DefaultABC = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
+const MyABC = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 // Abc represents a shuffled alphabet used to generate the Ids and provides methods to
 // encode data.
